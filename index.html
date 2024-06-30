@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home- Tanvir's Portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" 
+    sizes="32x32" href="img/logo.png">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <style>
+        @media (max-width: 799px) {
+            #faq {
+                margin-top: 250px;
+            }
+        }
+    </style>
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+     <div class="cursor"></div>
+    <section id="Home-Nav">
+        <div id="header">
+        <div id="logo">
+           <h3>Tanvir Mahmud</h3>
+        </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="abu.html">About</a></li>
+         
+            <a href="#" id="close"><i class="far fa-times" style="color: white;"></i></a> 
+        </ul>
+                  <div id="mobile">
+                  <i id="bar" class="fas fa-outdent"  style="color: white;"></i>
+                  </div> 
+    </div>
+    
+    </div>
+    </section>
+  <section class="home">
+    <div class="home-content">
+      <div class="home-img">
+        <img src="img/dp.png" style="width: 400px; height: 400px">
+      </div>
+      <h3>Hello, It's Me</h3>
+
+      <h1>Tanvir Mahmud</h1>
+      
+      <h3>And I'm a <span class="text"></span></h3>
+
+      <p>I'm a beginner in web design and am currently learning how to implement it. I completed HTML and CSS. I've been an intermediate graphic designer for three years and an intermediate E-Commerce businessman. I've developed a few small businesses that help me supplement my income, and I've been a professional E-Sports player since 2017. </p>
+
+      <div class="home-sc1">
+        <a href="#" style="--i:7"><i class="bx bxl-facebook"></i></a>
+        <a href="#" style="--i:8"><i class="bx bxl-instagram"></i></a>
+        <a href="#" style="--i:9"><i class="bx bxl-whatsapp"></i></a>
+        <a href="#" style="--i:10"><i class="bx bxl-tiktok"></i></a>
+      </div>
+      
+    </div></div>
+  <span class="home-imgHover"></span></section>
+
+  <style>
+    @media only screen and (max-width: 320px) {
+      .home-img img {
+        max-width: 50%;
+      }
+    }
+  </style>
+
+
+  <section class="services" id="services">
+    <div class="container">
+<h1 class="sub-title">My <span>Skills</span></h1>
+<div class="services-list">
+  
+    <div>
+      <i class='bx bx-code-alt'style='color:#00eeff'></i>
+      <h2>Web Design</h2>
+      <p>I'm a beginner in web design and am currently learning how to implement. I completed HTML and CSS. In sha Allah, I'll endeavor to become a professional web designer. </p>
+          <a href="#" class="btn-box">Learn More</a>
+  </div>
+
+  <div>
+    <i class='bx bx-code-alt'style='color:#00eeff'></i>
+    <h2>Graphics Design</h2>
+    <p>I have three years of intermediate graphics design experience. To add a professional touch to any project, I utilize Pixellab, Adobe Photoshop, Adobe Illustrator, and many other excellent graphical programs. </p>
+        <a href="#" class="btn-box">Learn More</a>
+  </div>
+
+<div>
+    <i class='bx bx-code-alt'style='color:#00eeff'></i>
+    <h2>Digital Marketing</h2>
+    <p>I'm an intermediate electronic commerce entrepreneur. I've launched a couple small businesses to supplement my income. </p>
+        <a href="#" class="btn-box">Learn More</a>
+  </div>
+  
+
+  <div>
+    <i class='bx bx-code-alt'style='color:#00eeff'></i>
+    <h2>Video Marketing</h2>
+    <p>I've worked as a professional video editor for three years. To add a high-end touch to my videos, I employ a variety of software programs such as Microsoft Clipchamp, VN Video Editor, Capcut, Alight Motion, Inshot, Kinemaster, and many more. I've worked as an unpaid intermediate video marketer on YouTube for seven years. I'll do my best to become a paid video marketer, insha'Allah. </p>
+        <a href="#" class="btn-box">Learn More</a>
+  </div>
+
+  <div>
+    <i class='bx bx-code-alt'style='color:#00eeff'></i>
+    <h2>Photography and Cinematography</h2>
+    <p>I've worked as a professional photographer and filmmaker for four years. In order to capture pertinent photos, I always maintain precise positioning and gradients. </p>
+        <a href="#" class="btn-box">Learn More</a>
+  </div>
+
+  <div>
+    <i class='bx bx-code-alt'style='color:#00eeff'></i>
+    <h2>E-Sports</h2>
+    <p>I started playing E-Sports professionally in 2017. When Free Fire was the main E-Sports platform, I used to play it. About BDT 8000 has already been earned by me from E-Sports competitions. </p>
+        <a href="#" class="btn-box">Learn More</a>
+  </div>
+
+</div> </div>
+
+  
+<section>
+  <h1 class="sub-title">My <span>Working Demos</span></h1>
+</section>
+<section class="gallery-container">
+  <div class="gallery-nav">
+    <button onclick="showAll()">All</button>
+    <button onclick="showVideos()">Videos</button>
+    <button onclick="showImages()">Images</button>
+  </div>
+
+  <div class="gallery-content" id="gallery-content">
+  </div>
+  </br></br></br>
+
+  <div class="see-more">
+    <button class="see-more-button" id="see-more-button" onclick="seeMore()">See More</button>
+  </div>
+</section>
+
+
+
+
+<section class="contact" id="contact">
+  <div class="contact-text">
+    <h2>Contact <span>Me</span></h2>
+    <h4>Let's Work Together</h4>
+
+    <p>If you send me an email, I will do my best to respond to it. Feel free to ask me any questions, hire me or make a contract with me.</p>
+      <div class="contact-list">
+        <li><i class='bx bxs-send'></i> dayhutcare@gmail.com</li>
+        <li><i class='bx bxs-phone'> 01613511624</i></li>
+      </div>
+ <div class="contact-lcons">
+  <li><i class='bx bxl-facebook-circle'></i></li>
+  <li><i class='bx bxl-twitter'></i></li>
+  <li><i class='bx bxl-instagram'></i></li>
+  <li><i class='bx bxl-linkedin'></i></li>
+ </div></div>
+ <div class="contact-form">
+  <form action="">
+    <input type="" placeholder="Enter Your Name" required>
+    <input type="email" placeholder="Enter Your Email" required>
+    <input type="" placeholder="Enter Your Subject">
+    <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Messege"></textarea>
+ <input type="submit" value="submit" class="submit">
+  </form>
+ </div>
+
+</section>
+<footer>
+  <div class="copyright">
+    <p>© 2024, Portfolio Created by Tanvir Mahmud</p>
+   </div>
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var options = {
+    strings: ['Web Designer', 'Graphics Designer', 'Creative Thinker'],
+    typeSpeed: 50,
+    backSpeed: 25,
+    showCursor: true,
+    cursorChar: '|',
+    loop: true
+  };
+
+  var typed = new Typed('.text', options);
+});
+</script>
+<script>
+function showAll() {
+      clearGallery();
+      addImage('img/demo-i.png', 'https://drive.google.com/file/d/1FQaEMzznQBiPnRwW-a7hiV0UwjiRRfRv/view?usp=drive_link');
+      addImage('img/demo-ii.png', 'https://drive.google.com/file/d/1N1Yo3khO8JfHXp0PM-x9UT_oZKpqHzgi/view?usp=drive_link');
+      addImage('img/demo-iii.jpg', 'https://drive.google.com/file/d/1oi53MzZ45P8eQAJu3siPvRell5wHI2xM/view?usp=drive_link');
+      addImage('img/demo-iv.png', 'https://drive.google.com/file/d/1K2LvZ4C7IeW6CP430dkN028JCOC50nLM/view?usp=drive_link');
+      addImage('img/demo-v.png', 'https://drive.google.com/file/d/1tOINHE9pua2zET8wlrg1lkmIzmYXZ-Zg/view?usp=drive_link');
+      addImage('img/demo-vi.png', 'https://drive.google.com/file/d/16IX-HIGMUAbMv6OJDvAJHCzNlNo05vpS/view?usp=drive_link');
+      addImage('img/demo-vii.png', 'https://drive.google.com/file/d/1RADjCNMdL36Unet8ZvhFiguZqfzLvsgf/view?usp=drive_link');
+      addImage('img/demo-viii.png', 'https://drive.google.com/file/d/1jdlpljmShPjDyOXSBp5hhahVlSaSItR0/view?usp=drive_link');
+      addImage('img/demo-ix.png', 'https://drive.google.com/file/d/1DSk3B-KUpnCnclz5PWieGolE-dwH-7AH/view?usp=drive_link');
+      addImage('img/demo-x.png', 'https://drive.google.com/file/d/1AbJe1IfibPA1nPgHyInviAThwzIxZdiQ/view?usp=drive_link');
+      addImage('img/demo-xi.png', 'https://drive.google.com/file/d/1kNvzA833a7O5SZSZa42Vctk4xBxzZbce/view?usp=drive_link');
+      addImage('img/demo-xii.png', 'https://drive.google.com/file/d/1yGD7o9qASKDvaWZFssE9wvi6g2Xo6I1Y/view?usp=drive_link');
+      addImage('img/demo-xiii.png', 'https://drive.google.com/file/d/1WMqdldUtyiSCgu-3HXCVwLCbucF8dT41/view?usp=drive_link');
+      addImage('img/demo-xiv.png', 'https://drive.google.com/file/d/1CxFDBK55dTFBSXTIWgiPrbrMql3fSn1x/view?usp=drive_link');
+      addImage('img/demo-xv.png', 'https://drive.google.com/file/d/18j0sXmPmbtz1RGR63Vqr3MP80KrBmEqD/view?usp=drive_link');
+      addImage('img/demo-xvi.png', 'https://drive.google.com/file/d/1F_F1gPlAJ8FI1uKLOm7ORST1eC4kCdGu/view?usp=drive_link');
+      addImage('img/demo-xvii.png', 'https://drive.google.com/file/d/1KcxJyD0o7FzSwiKUkIxQpuMBoNX39HpH/view?usp=drive_link');
+      addImage('img/demo-xviii.png', 'https://drive.google.com/file/d/17izbGI34Eem1NSqaQRjhDsu3u0i93HOw/view?usp=drive_link');
+      addVideo('https://www.youtube.com/embed/e6PZ5ahbrg8');
+      addVideo('https://www.youtube.com/embed/zP-JCAINZfk');
+    }
+
+    function showImages() {
+      clearGallery();
+      addImage('img/demo-i.png', 'https://drive.google.com/file/d/1FQaEMzznQBiPnRwW-a7hiV0UwjiRRfRv/view?usp=drive_link');
+      addImage('img/demo-ii.png', 'https://drive.google.com/file/d/1N1Yo3khO8JfHXp0PM-x9UT_oZKpqHzgi/view?usp=drive_link');
+      addImage('img/demo-iii.jpg', 'https://drive.google.com/file/d/1oi53MzZ45P8eQAJu3siPvRell5wHI2xM/view?usp=drive_link');
+      addImage('img/demo-iv.png', 'https://drive.google.com/file/d/1K2LvZ4C7IeW6CP430dkN028JCOC50nLM/view?usp=drive_link');
+      addImage('img/demo-v.png', 'https://drive.google.com/file/d/1tOINHE9pua2zET8wlrg1lkmIzmYXZ-Zg/view?usp=drive_link');
+      addImage('img/demo-vi.png', 'https://drive.google.com/file/d/16IX-HIGMUAbMv6OJDvAJHCzNlNo05vpS/view?usp=drive_link');
+      addImage('img/demo-vii.png', 'https://drive.google.com/file/d/1RADjCNMdL36Unet8ZvhFiguZqfzLvsgf/view?usp=drive_link');
+      addImage('img/demo-viii.png', 'https://drive.google.com/file/d/1jdlpljmShPjDyOXSBp5hhahVlSaSItR0/view?usp=drive_link');
+      addImage('img/demo-ix.png', 'https://drive.google.com/file/d/1DSk3B-KUpnCnclz5PWieGolE-dwH-7AH/view?usp=drive_link');
+      addImage('img/demo-x.png', 'https://drive.google.com/file/d/1AbJe1IfibPA1nPgHyInviAThwzIxZdiQ/view?usp=drive_link');
+      addImage('img/demo-xi.png', 'https://drive.google.com/file/d/1kNvzA833a7O5SZSZa42Vctk4xBxzZbce/view?usp=drive_link');
+      addImage('img/demo-xii.png', 'https://drive.google.com/file/d/1yGD7o9qASKDvaWZFssE9wvi6g2Xo6I1Y/view?usp=drive_link');
+      addImage('img/demo-xiii.png', 'https://drive.google.com/file/d/1WMqdldUtyiSCgu-3HXCVwLCbucF8dT41/view?usp=drive_link');
+      addImage('img/demo-xiv.png', 'https://drive.google.com/file/d/1CxFDBK55dTFBSXTIWgiPrbrMql3fSn1x/view?usp=drive_link');
+      addImage('img/demo-xv.png', 'https://drive.google.com/file/d/18j0sXmPmbtz1RGR63Vqr3MP80KrBmEqD/view?usp=drive_link');
+      addImage('img/demo-xvi.png', 'https://drive.google.com/file/d/1F_F1gPlAJ8FI1uKLOm7ORST1eC4kCdGu/view?usp=drive_link');
+      addImage('img/demo-xvii.png', 'https://drive.google.com/file/d/1KcxJyD0o7FzSwiKUkIxQpuMBoNX39HpH/view?usp=drive_link');
+      addImage('img/demo-xviii.png', 'https://drive.google.com/file/d/17izbGI34Eem1NSqaQRjhDsu3u0i93HOw/view?usp=drive_link');
+    }
+
+    function showVideos() {
+      clearGallery();
+      addVideo('https://www.youtube.com/embed/e6PZ5ahbrg8');
+      addVideo('https://www.youtube.com/embed/zP-JCAINZfk');
+    }
+
+    function clearGallery() {
+      var galleryContent = document.getElementById('gallery-content');
+      galleryContent.innerHTML = '';
+    }
+
+    function addImage(src, link) {
+      var img = new Image();
+      img.src = src;
+      img.onload = function() {
+        var galleryContent = document.getElementById('gallery-content');
+        var a = document.createElement('a');
+        a.href = link || '#';
+        a.appendChild(img);
+        galleryContent.appendChild(a);
+      };
+    }
+
+    function addVideo(src) {
+      var galleryContent = document.getElementById('gallery-content');
+      var iframe = document.createElement('iframe');
+      iframe.src = src;
+      iframe.frameBorder = '0';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      galleryContent.appendChild(iframe);
+    }
+</script>
+<script>
+
+function setActiveButton(button) {
+
+  var buttons = document.querySelectorAll('.gallery-nav button');
+  buttons.forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+
+
+  button.classList.add('active');
+}
+
+
+function setAllButtonsActive() {
+  var buttons = document.querySelectorAll('.gallery-nav button');
+  buttons.forEach(function(btn) {
+    btn.classList.add('active');
+  });
+}
+
+document.addEventListener('DOMContentLoaded', setAllButtonsActive);
+
+document.addEventListener('click', function(event) {
+  if (event.target.tagName === 'BUTTON') {
+    setActiveButton(event.target);
+  }
+});
+</script>
+<script>
+
+var additionalContentVisible = false;
+
+function seeMore() {
+  additionalContentVisible = !additionalContentVisible;
+
+  if (additionalContentVisible) {
+
+    addImage('img/extra-image.png', 'www.example.com');
+    addVideo('extra-video.mp4', 'Extra Video');
+
+
+    document.getElementById('see-more-button').innerText = 'See Less';
+  } else {
+
+    clearGallery();
+
+
+    document.getElementById('see-more-button').innerText = 'See More';
+    showAll(); 
+  }
+}
+</script>
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  showAll();
+});
+
+
+</script>
+<script>
+window.addEventListener('load', function() {
+const preloader = document.getElementById('preloader');
+const content = document.getElementById('content');
+preloader.style.display = 'none';
+content.style.display = 'block';
+});
+</script>
+<script>
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if (bar) {
+bar.addEventListener('click', () => {
+nav.classList.add('active');
+nav.style.zIndex = '1000';
+});
+}
+
+if (close) {
+close.addEventListener('click', () => {
+nav.classList.remove('active');
+nav.style.zIndex = 'initial'; 
+});
+}
+
+
+</script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({offset: 300})
+    AOS.init({delay: 20})
+  </script>
+
+  <script>
+            const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+cursor.classList.add("expand");
+
+setTimeout(() => {
+cursor.classList.remove("expand");
+}, 500)
+})
+  </script>
+
+<script src="script.js"></script>
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+    window.audio = new Audio();
+    audio.src = './img/click.mp3';
+});
+
+function playAudio() {
+    if (window.audio) {
+        audio.play();
+    } else {
+        console.error('Audio element not found');
+    }
+}
+</script>
+
+
+</body>
+</html>
